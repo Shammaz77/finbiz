@@ -1,4 +1,14 @@
 
+const toggleBtn = document.getElementById('toggle-btn');
+const quickContact = document.getElementById('quick-contact');
+
+toggleBtn.addEventListener('click', function () {
+    if (quickContact.style.display === 'none' || quickContact.style.display === '') {
+        quickContact.style.display = 'block';
+    } else {
+        quickContact.style.display = 'none';
+    }
+});
 (function ($) {
     'use strict';
   

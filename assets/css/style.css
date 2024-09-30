@@ -48,21 +48,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap");
 :root {
-  --color-primary: #0B4DF5;
-  --color-primary-2: #0B4DF5;
+  --color-primary: #274875;
+  --color-primary-2: #3a5c8a;
   --color-primary-3: #F64A00;
   --color-primary-4: #5264F3;
-  --color-primary-5:  #0B4DF5;
-  --color-primary-6:  #0B4DF5;
+  --color-primary-5:  #1e3d68;
+  --color-primary-6:  #274875;
   --color-primary-7: #E87556;
   --color-primary-8: #845CFF;
-  --color-primary-9: #4A3BCA;
+  --color-primary-9: #3e5779;
   --color-primary-alta: #b4d2ff;
   --color-secondary:#111D5E;
   --color-terciary:#90FF03;
   --color-gray: #f6f6f6;
   --color-gray-2: #f5f8fa;
-  --color-subtitle:  #0B4DF5;
+  --color-subtitle:  #274875;
   --color-body: #5D666F;
   --color-heading-1: #1C2539;
   --background-color-1:#181C25;
@@ -73,7 +73,7 @@
   --color-success: #3EB75E;
   --color-danger: #FF0003;
   --color-warning: #FF8F3C;
-  --color-info: #1BA2DB;
+  --color-info: #274875;
   --color-facebook: #3B5997;
   --color-twitter: #1BA1F2;
   --color-youtube: #ED4141;
@@ -17759,7 +17759,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
 
 @media only screen and (max-width: 479px) {
   .header-one-btn.rts-btn {
-    padding: 10px 7px;
+    padding: 11px 15px 11px 15px;
     font-size: 14px;
   }
 }
@@ -17827,7 +17827,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
 
 @media only screen and (max-width: 575px) {
   .quote-btn {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -18714,7 +18714,98 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
     letter-spacing: normal;
     font-size: 13px;
   }
+
 }
+@media (max-width: 600px) {
+  .banner-three.banner-four.banner-five .banner-five-inner .title .changebox {
+    margin: 0 5px -8px 0;
+    color: var(--color-primary-2);
+    overflow: hidden;
+    transition: 0.8s;
+    white-space: nowrap;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    line-height: -2px;
+    bottom: -4px;
+  }
+}
+/* Modal Background */
+.fb-modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    overflow: hidden;
+}
+
+/* Modal Content */
+.fb-modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Responsive for mobile */
+    max-width: 400px; /* Limits for larger screens */
+}
+
+/* Close Button */
+.fb-close {
+    color: #aaa;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fb-close:hover,
+.fb-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Form Styling */
+.fb-form-group {
+    margin-bottom: 15px;
+}
+
+.fb-form-group label {
+    font-weight: bold;
+}
+
+.fb-form-group input, 
+.fb-form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.fb-modal-footer {
+    text-align: center;
+}
+
+.fb-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fb-btn:hover {
+    background-color: #0056b3;
+}
+
 .banner-three.banner-four.banner-five .banner-five-inner .title .changebox {
   margin: 0 5px -8px 0;
   color: var(--color-primary-2);
@@ -18730,12 +18821,12 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
 }
 @media (max-width: 576px) {
   .banner-three.banner-four.banner-five .banner-five-inner .title .changebox {
-    bottom: -7px;
+    bottom: -0px;
   }
 }
 @media (max-width: 450px) {
   .banner-three.banner-four.banner-five .banner-five-inner .title .changebox {
-    bottom: -12px;
+    bottom: -0px;
   }
 }
 @media (max-width: 768px) {
@@ -18756,7 +18847,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   .banner-three.banner-four.banner-five .banner-five-inner .title {
     margin-top: 20px;
     font-size: 30px;
-    line-height: 10px;
+    line-height: 33px;
   }
 }
 .banner-three.banner-four.banner-five .banner-five-inner .disc {
@@ -23714,6 +23805,20 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   .rts-about-area-start-9 .about-main-wrapper span {
     font-size: 34px;
   }
+  .modal-content {
+    margin: 10% auto;
+    padding: 9px !important;
+    border: 1px solid #888;
+    width: 90% !important;
+}
+.form-group input {
+  border: 0 none;
+  border-radius: 4px;
+  height: 36px!important;
+}
+.modal-footer button {
+  font-size: 15px!important;
+}
 }
 
 .what-we-area-expart-13 {
@@ -32626,10 +32731,38 @@ p.disc {
   color: var(--color-primary-2);
   font-weight: 400;
 }
-
+.quick_contact {
+  display: none;
+  margin-top: 20px;
+}
+.sdsdx{
+  background-color: none!important;
+}
+.icon-w {
+  width: 30px;
+  height: 30px;
+}
+.svg-plus{
+  width: 37px;
+  background-color: #0056b3;
+  padding: 5px;
+  border-radius: 50%;
+}
+.toggle-btn {
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+  position: fixed;
+  right: 11px;
+  width: max-content;
+  bottom: 90px;
+  z-index: 1000;
+  border: none;
+  border-radius: 50%;
+}
 .progress-wrap {
   position: fixed;
-  right: 30px;
+  right: 16px;
   bottom: 30px;
   height: 46px;
   width: 46px;
@@ -32728,11 +32861,11 @@ p.disc {
   transition: transform 0.5s ease;
 }
 .qwhtsapp {
-  bottom: 90px;
+  bottom: 150px;
   background-color: #25d366;
 }
 .qcall {
-  bottom: 140px;
+  bottom: 200px;
   background-color: #2196f3;
 }
 .quick_contact_icon {
