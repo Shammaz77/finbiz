@@ -15358,7 +15358,7 @@ body.sal-disabled [data-sal|=flip] {
 }
 
 .header-main-one .thumbnail a {
-  padding: 36px 0;
+  padding: 26px 0;
   display: block;
   max-width: max-content;
 }
@@ -16481,7 +16481,9 @@ body.home-eleven #menu-btn:hover {
 .onepage.thirteen-body .mainmenu .has-droupdown .nav-link::before {
   display: none;
 }
-
+.logosss{
+height: 80px;
+}
 .mainmenu li {
   position: relative;
 }
