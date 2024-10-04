@@ -32139,7 +32139,7 @@ p.disc {
 .single-contact-one-inner .content {
   display: flex;
   align-items: center;
-  padding: 40px;
+  padding: 30px 20px;
   background-color: var(--color-primary-alta);
 }
 @media only screen and (max-width: 767px) {
@@ -32901,7 +32901,7 @@ p.disc {
 }
 .modal-footer button{
   font-size: 20px !important;
-  background-color: #0B4DF5 !important;
+  background-color: #3a5c8a !important;
   color: #fff !important;
   border-radius: 10px !important;
 }
