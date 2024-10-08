@@ -30653,6 +30653,9 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
     bottom: 15px;
     left: 15px;
   }
+  .tops{
+    padding-top: 50px;
+  }
 }
 .blog-style-11 .inner-content-blog-style-11 .catogory-area {
   display: flex;
